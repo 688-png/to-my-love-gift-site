@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F354F" />
+      <stop offset="100%" stop-color="#702D40" />
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F5" />
+      <stop offset="100%" stop-color="#F3E1E5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#302329" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle Base -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#B18A45" stroke-width="2" />
+
+  <!-- Inner Delicate Ring -->
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#E5CCD2" stroke-width="1" stroke-opacity="0.4" />
+
+  <!-- Romantic Heart Emblem -->
+  <path
+    d="M32 47.5C32 47.5 17 37.8 17 26.5C17 21.2 21.2 17 26.5 17C29.6 17 32 19 32 19C32 19 34.4 17 37.5 17C42.8 17 47 21.2 47 26.5C47 37.8 32 47.5 32 47.5Z"
+    fill="url(#heartGrad)"
+    filter="url(#shadow)"
+  />
+
+  <!-- Small Delicate Gold Accent Dot -->
+  <circle cx="32" cy="18.5" r="1.5" fill="#B18A45" />
+</svg>

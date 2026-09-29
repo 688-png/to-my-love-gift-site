@@ -1,0 +1,6 @@
+{
+  "name": "Our Little World — Romantic Couple's Space",
+  "description": "A personalized, interactive digital love story and romantic experience template for couples.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
